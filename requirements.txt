@@ -1,0 +1,4 @@
+django==3.2
+requests
+geopy
+aiogram==2.15
