@@ -64,7 +64,7 @@ def get_weather(city_name):
 
     fact = response.json().get("fact")
     if not fact:
-        return {"error": "Данные о факте погоды не найдены в ответе от сервиса погоды."}
+        return {"error": "Данные о погоде не найдены в ответе от сервиса погоды."}
 
     city_temp = fact.get("temp")
     city_pressure_mm = fact.get("pressure_mm")
